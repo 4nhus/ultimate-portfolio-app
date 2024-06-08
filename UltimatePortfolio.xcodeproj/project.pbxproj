@@ -8,22 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */; };
-		2BBADAFF2C143F5C0085B397 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADAFE2C143F5C0085B397 /* Persistence.swift */; };
 		2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB002C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld */; };
 		2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB032C143F5C0085B397 /* ContentView.swift */; };
 		2BBADB062C143F5E0085B397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBADB052C143F5E0085B397 /* Assets.xcassets */; };
 		2BBADB0A2C143F5E0085B397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBADB092C143F5E0085B397 /* Preview Assets.xcassets */; };
+		2BBADB122C1443410085B397 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB102C1443410085B397 /* Main.xcdatamodeld */; };
+		2BBADB142C14456D0085B397 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB132C14456D0085B397 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2BBADAF92C143F5C0085B397 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
-		2BBADAFE2C143F5C0085B397 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2BBADB012C143F5C0085B397 /* UltimatePortfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UltimatePortfolio.xcdatamodel; sourceTree = "<group>"; };
 		2BBADB032C143F5C0085B397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BBADB052C143F5E0085B397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BBADB072C143F5E0085B397 /* UltimatePortfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortfolio.entitlements; sourceTree = "<group>"; };
 		2BBADB092C143F5E0085B397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BBADB112C1443410085B397 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		2BBADB132C14456D0085B397 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2BBADB152C144BEF0085B397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +59,10 @@
 		2BBADAFB2C143F5C0085B397 /* UltimatePortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				2BBADB152C144BEF0085B397 /* Info.plist */,
 				2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */,
-				2BBADAFE2C143F5C0085B397 /* Persistence.swift */,
+				2BBADB102C1443410085B397 /* Main.xcdatamodeld */,
+				2BBADB132C14456D0085B397 /* DataController.swift */,
 				2BBADB032C143F5C0085B397 /* ContentView.swift */,
 				2BBADB052C143F5E0085B397 /* Assets.xcassets */,
 				2BBADB072C143F5E0085B397 /* UltimatePortfolio.entitlements */,
@@ -146,9 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */,
-				2BBADAFF2C143F5C0085B397 /* Persistence.swift in Sources */,
+				2BBADB142C14456D0085B397 /* DataController.swift in Sources */,
 				2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */,
 				2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */,
+				2BBADB122C1443410085B397 /* Main.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +288,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,6 +327,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -376,6 +384,17 @@
 			);
 			currentVersion = 2BBADB012C143F5C0085B397 /* UltimatePortfolio.xcdatamodel */;
 			path = UltimatePortfolio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		2BBADB102C1443410085B397 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BBADB112C1443410085B397 /* Main.xcdatamodel */,
+			);
+			currentVersion = 2BBADB112C1443410085B397 /* Main.xcdatamodel */;
+			name = Main.xcdatamodeld;
+			path = /Users/bytedance/Desktop/UltimatePortfolio/UltimatePortfolio/Main.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
