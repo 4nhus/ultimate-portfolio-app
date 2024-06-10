@@ -19,6 +19,7 @@
 		2BBADB1B2C16DCED0085B397 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1A2C16DCED0085B397 /* Filter.swift */; };
 		2BBADB1D2C16E5170085B397 /* Issue.CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1C2C16E5170085B397 /* Issue.CoreDataHelpers.swift */; };
 		2BBADB1F2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */; };
+		2BBADB212C172E480085B397 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB202C172E480085B397 /* IssueRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		2BBADB1A2C16DCED0085B397 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		2BBADB1C2C16E5170085B397 /* Issue.CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.CoreDataHelpers.swift; sourceTree = "<group>"; };
 		2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.CoreDataHelpers.swift; sourceTree = "<group>"; };
+		2BBADB202C172E480085B397 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */,
 				2BBADB1A2C16DCED0085B397 /* Filter.swift */,
 				2BBADB162C16DBAA0085B397 /* SidebarView.swift */,
+				2BBADB202C172E480085B397 /* IssueRow.swift */,
 				2BBADB182C16DBB80085B397 /* DetailView.swift */,
 				2BBADB102C1443410085B397 /* Main.xcdatamodeld */,
 				2BBADB132C14456D0085B397 /* DataController.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */,
 				2BBADB142C14456D0085B397 /* DataController.swift in Sources */,
+				2BBADB212C172E480085B397 /* IssueRow.swift in Sources */,
 				2BBADB1F2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift in Sources */,
 				2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */,
 				2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */,
