@@ -14,6 +14,9 @@
 		2BBADB0A2C143F5E0085B397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBADB092C143F5E0085B397 /* Preview Assets.xcassets */; };
 		2BBADB122C1443410085B397 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB102C1443410085B397 /* Main.xcdatamodeld */; };
 		2BBADB142C14456D0085B397 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB132C14456D0085B397 /* DataController.swift */; };
+		2BBADB172C16DBAA0085B397 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB162C16DBAA0085B397 /* SidebarView.swift */; };
+		2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB182C16DBB80085B397 /* DetailView.swift */; };
+		2BBADB1B2C16DCED0085B397 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1A2C16DCED0085B397 /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		2BBADB112C1443410085B397 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		2BBADB132C14456D0085B397 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		2BBADB152C144BEF0085B397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BBADB162C16DBAA0085B397 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		2BBADB182C16DBB80085B397 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2BBADB1A2C16DCED0085B397 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				2BBADB152C144BEF0085B397 /* Info.plist */,
 				2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */,
+				2BBADB1A2C16DCED0085B397 /* Filter.swift */,
+				2BBADB162C16DBAA0085B397 /* SidebarView.swift */,
+				2BBADB182C16DBB80085B397 /* DetailView.swift */,
 				2BBADB102C1443410085B397 /* Main.xcdatamodeld */,
 				2BBADB132C14456D0085B397 /* DataController.swift */,
 				2BBADB032C143F5C0085B397 /* ContentView.swift */,
@@ -153,8 +162,11 @@
 				2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */,
 				2BBADB142C14456D0085B397 /* DataController.swift in Sources */,
 				2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */,
+				2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */,
 				2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */,
+				2BBADB1B2C16DCED0085B397 /* Filter.swift in Sources */,
 				2BBADB122C1443410085B397 /* Main.xcdatamodeld in Sources */,
+				2BBADB172C16DBAA0085B397 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

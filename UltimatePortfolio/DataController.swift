@@ -16,6 +16,8 @@ class DataController: ObservableObject {
         return dataController
     }()
     
+    @Published var selectedFilter: Filter? = Filter.all
+    
     init(inMemory: Bool = false) {
         container = NSPersistentCloudKitContainer(name: "Main")
         
