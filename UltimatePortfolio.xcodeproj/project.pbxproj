@@ -17,6 +17,8 @@
 		2BBADB172C16DBAA0085B397 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB162C16DBAA0085B397 /* SidebarView.swift */; };
 		2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB182C16DBB80085B397 /* DetailView.swift */; };
 		2BBADB1B2C16DCED0085B397 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1A2C16DCED0085B397 /* Filter.swift */; };
+		2BBADB1D2C16E5170085B397 /* Issue.CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1C2C16E5170085B397 /* Issue.CoreDataHelpers.swift */; };
+		2BBADB1F2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		2BBADB162C16DBAA0085B397 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		2BBADB182C16DBB80085B397 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		2BBADB1A2C16DCED0085B397 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		2BBADB1C2C16E5170085B397 /* Issue.CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.CoreDataHelpers.swift; sourceTree = "<group>"; };
+		2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.CoreDataHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 			children = (
 				2BBADB152C144BEF0085B397 /* Info.plist */,
 				2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */,
+				2BBADB1C2C16E5170085B397 /* Issue.CoreDataHelpers.swift */,
+				2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */,
 				2BBADB1A2C16DCED0085B397 /* Filter.swift */,
 				2BBADB162C16DBAA0085B397 /* SidebarView.swift */,
 				2BBADB182C16DBB80085B397 /* DetailView.swift */,
@@ -161,8 +167,10 @@
 			files = (
 				2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */,
 				2BBADB142C14456D0085B397 /* DataController.swift in Sources */,
+				2BBADB1F2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift in Sources */,
 				2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */,
 				2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */,
+				2BBADB1D2C16E5170085B397 /* Issue.CoreDataHelpers.swift in Sources */,
 				2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */,
 				2BBADB1B2C16DCED0085B397 /* Filter.swift in Sources */,
 				2BBADB122C1443410085B397 /* Main.xcdatamodeld in Sources */,
