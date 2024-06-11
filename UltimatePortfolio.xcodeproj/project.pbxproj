@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B66A5C12C18703100481823 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5C02C18703100481823 /* IssueView.swift */; };
+		2B66A5C32C18703800481823 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5C22C18703800481823 /* NoIssueView.swift */; };
 		2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */; };
 		2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB002C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld */; };
 		2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB032C143F5C0085B397 /* ContentView.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B66A5C02C18703100481823 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		2B66A5C22C18703800481823 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 		2BBADAF92C143F5C0085B397 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		2BBADB012C143F5C0085B397 /* UltimatePortfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UltimatePortfolio.xcdatamodel; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				2BBADB162C16DBAA0085B397 /* SidebarView.swift */,
 				2BBADB202C172E480085B397 /* IssueRow.swift */,
 				2BBADB182C16DBB80085B397 /* DetailView.swift */,
+				2B66A5C02C18703100481823 /* IssueView.swift */,
+				2B66A5C22C18703800481823 /* NoIssueView.swift */,
 				2BBADB102C1443410085B397 /* Main.xcdatamodeld */,
 				2BBADB132C14456D0085B397 /* DataController.swift */,
 				2BBADB032C143F5C0085B397 /* ContentView.swift */,
@@ -173,11 +179,13 @@
 				2BBADB212C172E480085B397 /* IssueRow.swift in Sources */,
 				2BBADB1F2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift in Sources */,
 				2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */,
+				2B66A5C32C18703800481823 /* NoIssueView.swift in Sources */,
 				2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */,
 				2BBADB1D2C16E5170085B397 /* Issue.CoreDataHelpers.swift in Sources */,
 				2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */,
 				2BBADB1B2C16DCED0085B397 /* Filter.swift in Sources */,
 				2BBADB122C1443410085B397 /* Main.xcdatamodeld in Sources */,
+				2B66A5C12C18703100481823 /* IssueView.swift in Sources */,
 				2BBADB172C16DBAA0085B397 /* SidebarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
