@@ -156,7 +156,7 @@ class DataController: ObservableObject {
         var predicates = [NSPredicate]()
         
         if let tag = filter.tag {
-            let tagPredicate = NSPredicate(format: "tags CONTAIN %@", tag)
+            let tagPredicate = NSPredicate(format: "tags CONTAINS %@", tag)
             predicates.append(tagPredicate)
         } else {
             let datePredicate = NSPredicate(format: "modificationDate > %@", filter.minModificationDate as NSDate)
