@@ -11,6 +11,12 @@
             "state" : "translated",
             "value" : "**Modified:** %@"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Módosítva:** %@"
+          }
         }
       }
     },
@@ -20,6 +26,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "**Status:** %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Állapot:** %@"
           }
         }
       }
@@ -49,6 +61,30 @@
               }
             }
           }
+        },
+        "hu" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "1 probléma"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld problémák"
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Nincs probléma"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -59,12 +95,24 @@
             "state" : "translated",
             "value" : "Actions"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Műveletek"
+          }
         }
       }
     },
     "Add Samples" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Samples"
+          }
+        },
+        "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Samples"
@@ -79,6 +127,12 @@
             "state" : "translated",
             "value" : "Add Tag"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Címke Hozzáadása"
+          }
         }
       }
     },
@@ -89,6 +143,12 @@
             "state" : "translated",
             "value" : "Add Tags"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Címkék Hozzáadásához"
+          }
         }
       }
     },
@@ -98,6 +158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Összes"
           }
         }
       }
@@ -110,6 +176,12 @@
             "state" : "translated",
             "value" : "All Issues"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Összes Probléma"
+          }
         }
       }
     },
@@ -119,6 +191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Awards"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Díjak"
           }
         }
       }
@@ -130,6 +208,12 @@
             "state" : "translated",
             "value" : "Basic Information"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alapinformáció"
+          }
         }
       }
     },
@@ -139,6 +223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mégsem"
           }
         }
       }
@@ -150,6 +240,12 @@
             "state" : "translated",
             "value" : "Close Issue"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probléma Lezárása"
+          }
         }
       }
     },
@@ -159,6 +255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Closed"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lezárt"
           }
         }
       }
@@ -170,6 +272,12 @@
             "state" : "translated",
             "value" : "CLOSED"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LEZÁRT"
+          }
         }
       }
     },
@@ -179,6 +287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copy Issue Title"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probléma Címének Másolása"
           }
         }
       }
@@ -190,6 +304,12 @@
             "state" : "translated",
             "value" : "Date Created"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Létrehozás Dátuma"
+          }
         }
       }
     },
@@ -199,6 +319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Date Modified"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Módosítás Dátuma"
           }
         }
       }
@@ -210,6 +336,12 @@
             "state" : "translated",
             "value" : "Delete"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Törlés"
+          }
         }
       }
     },
@@ -219,6 +351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Description"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leírását"
           }
         }
       }
@@ -230,6 +368,12 @@
             "state" : "translated",
             "value" : "Details"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Részletek"
+          }
         }
       }
     },
@@ -239,6 +383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enter the issue description here"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Írja be a probléma leírását ide"
           }
         }
       }
@@ -250,6 +400,12 @@
             "state" : "translated",
             "value" : "Enter the issue title here"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Írja be a probléma címét ide"
+          }
         }
       }
     },
@@ -259,6 +415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Filter"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szűrő"
           }
         }
       }
@@ -270,6 +432,12 @@
             "state" : "translated",
             "value" : "Filter issues, or type # to add tags"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szűrje ki a problémákat, vagy írja be a # karaktert címkék hozzáadásához"
+          }
         }
       }
     },
@@ -279,6 +447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Filters"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szűrők"
           }
         }
       }
@@ -290,6 +464,12 @@
             "state" : "translated",
             "value" : "High"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magas"
+          }
         }
       }
     },
@@ -299,6 +479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "High priority"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magas prioritás"
           }
         }
       }
@@ -310,6 +496,12 @@
             "state" : "translated",
             "value" : "Issues"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Problémák"
+          }
         }
       }
     },
@@ -319,6 +511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Locked"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zárt"
           }
         }
       }
@@ -330,6 +528,12 @@
             "state" : "translated",
             "value" : "Low"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alacsony"
+          }
         }
       }
     },
@@ -339,6 +543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Medium"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Közepes"
           }
         }
       }
@@ -351,6 +561,12 @@
             "state" : "translated",
             "value" : "New Issue"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Új Szám"
+          }
         }
       }
     },
@@ -360,6 +576,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "New Name"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Új Név"
           }
         }
       }
@@ -372,6 +594,12 @@
             "state" : "translated",
             "value" : "New Tag"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Új Címke"
+          }
         }
       }
     },
@@ -381,6 +609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Newest to Oldest"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legújabbtól a Legrégebbig"
           }
         }
       }
@@ -392,12 +626,24 @@
             "state" : "translated",
             "value" : "No Issue Selected!"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nincs Kiválasztott Probléma!"
+          }
         }
       }
     },
     "OK" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "hu" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -412,6 +658,12 @@
             "state" : "translated",
             "value" : "Oldest to Newest"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legrégebbitől a Legújabbig"
+          }
         }
       }
     },
@@ -421,6 +673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyitott"
           }
         }
       }
@@ -432,6 +690,12 @@
             "state" : "translated",
             "value" : "Priority"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prioritás"
+          }
         }
       }
     },
@@ -441,6 +705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Re-open Issue"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probléma Újranyitása"
           }
         }
       }
@@ -453,6 +723,12 @@
             "state" : "translated",
             "value" : "Recent Issues"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legutóbbi Problémák"
+          }
         }
       }
     },
@@ -462,6 +738,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rename"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Átnevezés"
           }
         }
       }
@@ -473,6 +755,12 @@
             "state" : "translated",
             "value" : "Rename Tag"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Címke Átnevezése"
+          }
         }
       }
     },
@@ -482,6 +770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show Awards"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Díjak Megjelenítése"
           }
         }
       }
@@ -493,6 +787,12 @@
             "state" : "translated",
             "value" : "Smart Filters"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Intelligens Szűrők"
+          }
         }
       }
     },
@@ -502,6 +802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sort By"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rendezés"
           }
         }
       }
@@ -513,6 +819,12 @@
             "state" : "translated",
             "value" : "Sort Order"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sorrend"
+          }
         }
       }
     },
@@ -522,6 +834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Status"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Állapot"
           }
         }
       }
@@ -533,6 +851,12 @@
             "state" : "translated",
             "value" : "Tags"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Címkék"
+          }
         }
       }
     },
@@ -542,6 +866,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Title"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Másolása"
           }
         }
       }
@@ -553,6 +883,12 @@
             "state" : "translated",
             "value" : "Turn Filter Off"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szűrő Kikapcsolása"
+          }
         }
       }
     },
@@ -563,6 +899,12 @@
             "state" : "translated",
             "value" : "Turn Filter On"
           }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szűrő Bekapcsolása"
+          }
         }
       }
     },
@@ -572,6 +914,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unlocked: %@"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feloldva: %@"
           }
         }
       }
