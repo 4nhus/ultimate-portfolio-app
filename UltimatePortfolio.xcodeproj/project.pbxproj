@@ -14,6 +14,7 @@
 		2B66A5C92C1ACAC400481823 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B66A5C72C1ACAC400481823 /* Colors.xcassets */; };
 		2B66A5CB2C1ACB1300481823 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5CA2C1ACB1300481823 /* Award.swift */; };
 		2B66A5CD2C1ACB9A00481823 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5CC2C1ACB9900481823 /* AwardsView.swift */; };
+		2B66A5CF2C1BBCCA00481823 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2B66A5CE2C1BBCCA00481823 /* Localizable.xcstrings */; };
 		2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */; };
 		2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB002C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld */; };
 		2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB032C143F5C0085B397 /* ContentView.swift */; };
@@ -37,6 +38,7 @@
 		2B66A5C72C1ACAC400481823 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		2B66A5CA2C1ACB1300481823 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		2B66A5CC2C1ACB9900481823 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		2B66A5CE2C1BBCCA00481823 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		2BBADAF92C143F5C0085B397 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		2BBADB012C143F5C0085B397 /* UltimatePortfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UltimatePortfolio.xcdatamodel; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		2BBADAF02C143F5C0085B397 = {
 			isa = PBXGroup;
 			children = (
+				2B66A5CE2C1BBCCA00481823 /* Localizable.xcstrings */,
 				2BBADAFB2C143F5C0085B397 /* UltimatePortfolio */,
 				2BBADAFA2C143F5C0085B397 /* Products */,
 			);
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BBADB0A2C143F5E0085B397 /* Preview Assets.xcassets in Resources */,
+				2B66A5CF2C1BBCCA00481823 /* Localizable.xcstrings in Resources */,
 				2B66A5C92C1ACAC400481823 /* Colors.xcassets in Resources */,
 				2B66A5C82C1ACAC400481823 /* Awards.json in Resources */,
 				2BBADB062C143F5E0085B397 /* Assets.xcassets in Resources */,
