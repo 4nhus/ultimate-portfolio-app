@@ -23,6 +23,9 @@
 		2B66A5DF2C1D22D000481823 /* UserFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5DE2C1D22D000481823 /* UserFilterRow.swift */; };
 		2B66A5F22C1D560500481823 /* UltimatePortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5F12C1D560500481823 /* UltimatePortfolioTests.swift */; };
 		2B66A5FA2C1D584F00481823 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5F92C1D584F00481823 /* AssetTests.swift */; };
+		2B66A5FC2C1D5A7E00481823 /* TagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5FB2C1D5A7E00481823 /* TagTests.swift */; };
+		2B66A5FE2C1D5D9400481823 /* AwardsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5FD2C1D5D9400481823 /* AwardsTest.swift */; };
+		2B66A6002C1D614500481823 /* DevelopmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5FF2C1D614500481823 /* DevelopmentTests.swift */; };
 		2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */; };
 		2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB002C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld */; };
 		2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB032C143F5C0085B397 /* ContentView.swift */; };
@@ -68,6 +71,9 @@
 		2B66A5F12C1D560500481823 /* UltimatePortfolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioTests.swift; sourceTree = "<group>"; };
 		2B66A5F82C1D56E600481823 /* UltimatePortfolio.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = UltimatePortfolio.xctestplan; sourceTree = SOURCE_ROOT; };
 		2B66A5F92C1D584F00481823 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
+		2B66A5FB2C1D5A7E00481823 /* TagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagTests.swift; sourceTree = "<group>"; };
+		2B66A5FD2C1D5D9400481823 /* AwardsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsTest.swift; sourceTree = "<group>"; };
+		2B66A5FF2C1D614500481823 /* DevelopmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DevelopmentTests.swift; path = UltimatePortfolioTests/DevelopmentTests.swift; sourceTree = "<group>"; };
 		2BBADAF92C143F5C0085B397 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		2BBADB012C143F5C0085B397 /* UltimatePortfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UltimatePortfolio.xcdatamodel; sourceTree = "<group>"; };
@@ -189,8 +195,10 @@
 		2B66A5F02C1D560500481823 /* UltimatePortfolioTests */ = {
 			isa = PBXGroup;
 			children = (
+				2B66A5FD2C1D5D9400481823 /* AwardsTest.swift */,
 				2B66A5F82C1D56E600481823 /* UltimatePortfolio.xctestplan */,
 				2B66A5F12C1D560500481823 /* UltimatePortfolioTests.swift */,
+				2B66A5FB2C1D5A7E00481823 /* TagTests.swift */,
 				2B66A5F92C1D584F00481823 /* AssetTests.swift */,
 			);
 			path = UltimatePortfolioTests;
@@ -199,6 +207,7 @@
 		2BBADAF02C143F5C0085B397 = {
 			isa = PBXGroup;
 			children = (
+				2B66A5FF2C1D614500481823 /* DevelopmentTests.swift */,
 				2BBADAFB2C143F5C0085B397 /* UltimatePortfolio */,
 				2B66A5F02C1D560500481823 /* UltimatePortfolioTests */,
 				2BBADAFA2C143F5C0085B397 /* Products */,
@@ -368,7 +377,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B66A5FA2C1D584F00481823 /* AssetTests.swift in Sources */,
+				2B66A5FE2C1D5D9400481823 /* AwardsTest.swift in Sources */,
+				2B66A5FC2C1D5A7E00481823 /* TagTests.swift in Sources */,
 				2B66A5F22C1D560500481823 /* UltimatePortfolioTests.swift in Sources */,
+				2B66A6002C1D614500481823 /* DevelopmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

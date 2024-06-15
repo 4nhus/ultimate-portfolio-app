@@ -41,8 +41,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B66A5EE2C1D560500481823"
-               BuildableName = "UltimatePortfolioUITests.xctest"
-               BlueprintName = "UltimatePortfolioUITests"
+               BuildableName = "UltimatePortfolioTests.xctest"
+               BlueprintName = "UltimatePortfolioTests"
                ReferencedContainer = "container:UltimatePortfolio.xcodeproj">
             </BuildableReference>
          </TestableReference>
