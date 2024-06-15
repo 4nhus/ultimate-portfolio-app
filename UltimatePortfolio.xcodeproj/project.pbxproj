@@ -15,6 +15,12 @@
 		2B66A5CD2C1ACB9A00481823 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5CC2C1ACB9900481823 /* AwardsView.swift */; };
 		2B66A5CF2C1BBCCA00481823 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2B66A5CE2C1BBCCA00481823 /* Localizable.xcstrings */; };
 		2B66A5D22C1C7F1B00481823 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B66A5D12C1C7F1B00481823 /* Awards.json */; };
+		2B66A5D52C1D1EFA00481823 /* SidebarViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5D42C1D1EFA00481823 /* SidebarViewToolbar.swift */; };
+		2B66A5D72C1D201600481823 /* IssueViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5D62C1D201600481823 /* IssueViewToolbar.swift */; };
+		2B66A5D92C1D207500481823 /* ContentViewToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5D82C1D207500481823 /* ContentViewToolbar.swift */; };
+		2B66A5DB2C1D21AC00481823 /* TagsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5DA2C1D21AC00481823 /* TagsMenuView.swift */; };
+		2B66A5DD2C1D228400481823 /* SmartFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5DC2C1D228400481823 /* SmartFilterRow.swift */; };
+		2B66A5DF2C1D22D000481823 /* UserFilterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5DE2C1D22D000481823 /* UserFilterRow.swift */; };
 		2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */; };
 		2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB002C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld */; };
 		2BBADB042C143F5C0085B397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB032C143F5C0085B397 /* ContentView.swift */; };
@@ -40,6 +46,12 @@
 		2B66A5CE2C1BBCCA00481823 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		2B66A5D02C1C7F1B00481823 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		2B66A5D32C1C7F7500481823 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = hu; path = hu.lproj/Awards.json; sourceTree = "<group>"; };
+		2B66A5D42C1D1EFA00481823 /* SidebarViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewToolbar.swift; sourceTree = "<group>"; };
+		2B66A5D62C1D201600481823 /* IssueViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueViewToolbar.swift; sourceTree = "<group>"; };
+		2B66A5D82C1D207500481823 /* ContentViewToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewToolbar.swift; sourceTree = "<group>"; };
+		2B66A5DA2C1D21AC00481823 /* TagsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsMenuView.swift; sourceTree = "<group>"; };
+		2B66A5DC2C1D228400481823 /* SmartFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFilterRow.swift; sourceTree = "<group>"; };
+		2B66A5DE2C1D22D000481823 /* UserFilterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFilterRow.swift; sourceTree = "<group>"; };
 		2BBADAF92C143F5C0085B397 /* UltimatePortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioApp.swift; sourceTree = "<group>"; };
 		2BBADB012C143F5C0085B397 /* UltimatePortfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UltimatePortfolio.xcdatamodel; sourceTree = "<group>"; };
@@ -95,9 +107,14 @@
 				2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */,
 				2BBADB1A2C16DCED0085B397 /* Filter.swift */,
 				2BBADB162C16DBAA0085B397 /* SidebarView.swift */,
+				2B66A5DE2C1D22D000481823 /* UserFilterRow.swift */,
+				2B66A5DC2C1D228400481823 /* SmartFilterRow.swift */,
+				2B66A5D42C1D1EFA00481823 /* SidebarViewToolbar.swift */,
 				2BBADB202C172E480085B397 /* IssueRow.swift */,
 				2BBADB182C16DBB80085B397 /* DetailView.swift */,
 				2B66A5C02C18703100481823 /* IssueView.swift */,
+				2B66A5DA2C1D21AC00481823 /* TagsMenuView.swift */,
+				2B66A5D62C1D201600481823 /* IssueViewToolbar.swift */,
 				2B66A5C22C18703800481823 /* NoIssueView.swift */,
 				2BBADB102C1443410085B397 /* Main.xcdatamodeld */,
 				2BBADB132C14456D0085B397 /* DataController.swift */,
@@ -105,6 +122,7 @@
 				2B66A5CA2C1ACB1300481823 /* Award.swift */,
 				2B66A5CC2C1ACB9900481823 /* AwardsView.swift */,
 				2BBADB032C143F5C0085B397 /* ContentView.swift */,
+				2B66A5D82C1D207500481823 /* ContentViewToolbar.swift */,
 				2BBADB052C143F5E0085B397 /* Assets.xcassets */,
 				2B66A5D12C1C7F1B00481823 /* Awards.json */,
 				2B66A5C72C1ACAC400481823 /* Colors.xcassets */,
@@ -197,6 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B66A5DB2C1D21AC00481823 /* TagsMenuView.swift in Sources */,
+				2B66A5D72C1D201600481823 /* IssueViewToolbar.swift in Sources */,
+				2B66A5D92C1D207500481823 /* ContentViewToolbar.swift in Sources */,
 				2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */,
 				2BBADB142C14456D0085B397 /* DataController.swift in Sources */,
 				2BBADB212C172E480085B397 /* IssueRow.swift in Sources */,
@@ -205,14 +226,17 @@
 				2B66A5C52C1AC7D800481823 /* Bundle-Decodable.swift in Sources */,
 				2B66A5C32C18703800481823 /* NoIssueView.swift in Sources */,
 				2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */,
+				2B66A5DD2C1D228400481823 /* SmartFilterRow.swift in Sources */,
 				2B66A5CD2C1ACB9A00481823 /* AwardsView.swift in Sources */,
 				2BBADB1D2C16E5170085B397 /* Issue.CoreDataHelpers.swift in Sources */,
 				2BBADB022C143F5C0085B397 /* UltimatePortfolio.xcdatamodeld in Sources */,
 				2BBADB1B2C16DCED0085B397 /* Filter.swift in Sources */,
 				2BBADB122C1443410085B397 /* Main.xcdatamodeld in Sources */,
+				2B66A5DF2C1D22D000481823 /* UserFilterRow.swift in Sources */,
 				2B66A5C12C18703100481823 /* IssueView.swift in Sources */,
 				2B66A5CB2C1ACB1300481823 /* Award.swift in Sources */,
 				2BBADB172C16DBAA0085B397 /* SidebarView.swift in Sources */,
+				2B66A5D52C1D1EFA00481823 /* SidebarViewToolbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
