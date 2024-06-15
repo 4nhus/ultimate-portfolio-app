@@ -11,7 +11,7 @@ import SwiftUI
 struct UltimatePortfolioApp: App {
     @StateObject var dataController = DataController()
     @Environment(\.scenePhase) var scenePhase
-    
+
     var body: some Scene {
         WindowGroup {
             NavigationSplitView {
@@ -31,4 +31,3 @@ struct UltimatePortfolioApp: App {
         }
     }
 }
-
