@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "4B5522F4-5CB5-43AC-B0C8-4FA730FDD246",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:UltimatePortfolio.xcodeproj",
+        "identifier" : "2B66A60D2C1D75DE00481823",
+        "name" : "UltimatePortfolioUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
