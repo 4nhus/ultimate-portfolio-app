@@ -16,7 +16,6 @@ enum Status {
     case all, open, closed
 }
 
-
 /// An environment singleton responsible for managing our Core Data stack, including handling saving,
 /// counting fetch requests, tracking awards, and dealing with sample data.
 class DataController: ObservableObject {
