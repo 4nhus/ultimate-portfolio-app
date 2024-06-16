@@ -27,7 +27,7 @@ struct IssueViewToolbar: View {
                 issue.completed.toggle()
                 dataController.save()
             } label: {
-                Label(openCloseButtonText, systemImage: "bubble.left.and.bubble.exclamationmark.bubble.right")
+                Label(openCloseButtonText, systemImage: "bubble.left.and.exclamationmark.bubble.right")
             }
 
             Divider()
