@@ -250,6 +250,7 @@
       }
     },
     "Closed" : {
+      "comment" : "This issue has been resolved by the issue.",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -516,7 +517,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zárt"
+            "value" : "Zárolt"
           }
         }
       }
@@ -635,6 +636,17 @@
         }
       }
     },
+    "No tags" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Címkétlen"
+          }
+        }
+      }
+    },
     "OK" : {
       "localizations" : {
         "en" : {
@@ -668,6 +680,7 @@
       }
     },
     "Open" : {
+      "comment" : "This issue is currently unresolved.",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -919,7 +932,7 @@
         "hu" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Feloldva: %@"
+            "value" : "Feloldott: %@"
           }
         }
       }
