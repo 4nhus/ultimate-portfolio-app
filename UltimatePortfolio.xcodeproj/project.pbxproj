@@ -10,6 +10,7 @@
 		2B3479BF2C1F04DA008C7EE8 /* SidebarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3479BE2C1F04DA008C7EE8 /* SidebarViewModel.swift */; };
 		2B3479C12C1F0D09008C7EE8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3479C02C1F0D09008C7EE8 /* ContentViewModel.swift */; };
 		2B3479C32C1F0DE0008C7EE8 /* IssueRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3479C22C1F0DE0008C7EE8 /* IssueRowViewModel.swift */; };
+		2B3479C52C1FDB31008C7EE8 /* DataController-Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3479C42C1FDB31008C7EE8 /* DataController-Notifications.swift */; };
 		2B66A5C12C18703100481823 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5C02C18703100481823 /* IssueView.swift */; };
 		2B66A5C32C18703800481823 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5C22C18703800481823 /* NoIssueView.swift */; };
 		2B66A5C52C1AC7D800481823 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A5C42C1AC7D800481823 /* Bundle-Decodable.swift */; };
@@ -72,6 +73,7 @@
 		2B3479BE2C1F04DA008C7EE8 /* SidebarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarViewModel.swift; sourceTree = "<group>"; };
 		2B3479C02C1F0D09008C7EE8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		2B3479C22C1F0DE0008C7EE8 /* IssueRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRowViewModel.swift; sourceTree = SOURCE_ROOT; };
+		2B3479C42C1FDB31008C7EE8 /* DataController-Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController-Notifications.swift"; sourceTree = "<group>"; };
 		2B66A5C02C18703100481823 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
 		2B66A5C22C18703800481823 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 		2B66A5C42C1AC7D800481823 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				2B66A5E22C1D4FB900481823 /* Filters */,
 				2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */,
 				2BBADB132C14456D0085B397 /* DataController.swift */,
+				2B3479C42C1FDB31008C7EE8 /* DataController-Notifications.swift */,
 				2BBADB082C143F5E0085B397 /* Preview Content */,
 			);
 			path = UltimatePortfolio;
@@ -504,6 +507,7 @@
 				2B3479BF2C1F04DA008C7EE8 /* SidebarViewModel.swift in Sources */,
 				2B66A5C52C1AC7D800481823 /* Bundle-Decodable.swift in Sources */,
 				2B66A5C32C18703800481823 /* NoIssueView.swift in Sources */,
+				2B3479C52C1FDB31008C7EE8 /* DataController-Notifications.swift in Sources */,
 				2BBADB192C16DBB80085B397 /* DetailView.swift in Sources */,
 				2B66A5DD2C1D228400481823 /* SmartFilterRow.swift in Sources */,
 				2B66A5CD2C1ACB9A00481823 /* AwardsView.swift in Sources */,

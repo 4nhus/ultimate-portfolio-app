@@ -2,7 +2,14 @@
   "sourceLanguage" : "en",
   "strings" : {
     "" : {
-
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
     },
     "**Modified:** %@" : {
       "localizations" : {
@@ -229,6 +236,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mégsem"
+          }
+        }
+      }
+    },
+    "Check Settings" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ellenőrizze a Beállításokat"
           }
         }
       }
@@ -679,6 +696,16 @@
         }
       }
     },
+    "Oops!" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppá!"
+          }
+        }
+      }
+    },
     "Open" : {
       "comment" : "This issue is currently unresolved.",
       "localizations" : {
@@ -745,6 +772,26 @@
         }
       }
     },
+    "Reminder Time" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emlékeztető Ideje"
+          }
+        }
+      }
+    },
+    "Reminders" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emlékeztetők"
+          }
+        }
+      }
+    },
     "Rename" : {
       "localizations" : {
         "en" : {
@@ -789,6 +836,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Díjak Megjelenítése"
+          }
+        }
+      }
+    },
+    "Show Reminders" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emlékeztetők Megjelenítése"
           }
         }
       }
@@ -869,6 +926,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Címkék"
+          }
+        }
+      }
+    },
+    "There was a problem setting your notification. Please check you have notifications enabled." : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probléma merült fel az értesítés beállításakor. Kérjük, ellenőrizze, hogy az értesítések engedélyezve vannak-e."
           }
         }
       }
