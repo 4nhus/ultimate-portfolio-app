@@ -34,12 +34,23 @@ struct ContentView: View {
         }
         .toolbar(content: ContentViewToolbar.init)
         .onAppear(perform: askForReview)
+        .onOpenURL(perform: openURL)
     }
 
     func askForReview() {
         if viewModel.shouldRequestReview {
             requestReview()
         }
+    }
+
+    func openURL(_ url: URL) {
+        if url.absoluteString.contains("newIssue") {
+            viewModel.newIssue()
+        }
+    }
+
+    func resumeActivity(_ userActivity: NSUserActivity) {
+        viewModel.newIssue()
     }
 }
 

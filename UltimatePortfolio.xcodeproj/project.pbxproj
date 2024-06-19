@@ -52,6 +52,8 @@
 		2BBADB1D2C16E5170085B397 /* Issue.CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1C2C16E5170085B397 /* Issue.CoreDataHelpers.swift */; };
 		2BBADB1F2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */; };
 		2BBADB212C172E480085B397 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBADB202C172E480085B397 /* IssueRow.swift */; };
+		2BECAD6D2C23086600A2F454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BECAD6C2C23086600A2F454 /* AppDelegate.swift */; };
+		2BECAD6F2C23086C00A2F454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BECAD6E2C23086C00A2F454 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +127,8 @@
 		2BBADB1C2C16E5170085B397 /* Issue.CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.CoreDataHelpers.swift; sourceTree = "<group>"; };
 		2BBADB1E2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.CoreDataHelpers.swift; sourceTree = "<group>"; };
 		2BBADB202C172E480085B397 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		2BECAD6C2C23086600A2F454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BECAD6E2C23086C00A2F454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +318,8 @@
 				2B66A5E32C1D4FE600481823 /* Issues */,
 				2B66A5E22C1D4FB900481823 /* Filters */,
 				2BBADAFC2C143F5C0085B397 /* UltimatePortfolioApp.swift */,
+				2BECAD6C2C23086600A2F454 /* AppDelegate.swift */,
+				2BECAD6E2C23086C00A2F454 /* SceneDelegate.swift */,
 				2BBADB132C14456D0085B397 /* DataController.swift */,
 				2B3479C42C1FDB31008C7EE8 /* DataController-Notifications.swift */,
 				2B916F452C20217A0087123D /* DataController-StoreKit.swift */,
@@ -517,6 +523,8 @@
 				2B66A5D72C1D201600481823 /* IssueViewToolbar.swift in Sources */,
 				2B66A5D92C1D207500481823 /* ContentViewToolbar.swift in Sources */,
 				2BBADAFD2C143F5C0085B397 /* UltimatePortfolioApp.swift in Sources */,
+				2BECAD6D2C23086600A2F454 /* AppDelegate.swift in Sources */,
+				2BECAD6F2C23086C00A2F454 /* SceneDelegate.swift in Sources */,
 				2BBADB142C14456D0085B397 /* DataController.swift in Sources */,
 				2BBADB212C172E480085B397 /* IssueRow.swift in Sources */,
 				2BBADB1F2C16E5FC0085B397 /* Tag.CoreDataHelpers.swift in Sources */,
