@@ -1113,6 +1113,16 @@
           }
         }
       }
+    },
+    "Your most important issues." : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A legfontosabb problémáid."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

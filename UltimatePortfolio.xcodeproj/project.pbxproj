@@ -37,6 +37,7 @@
 		2B66A6112C1D75DE00481823 /* UltimatePortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A6102C1D75DE00481823 /* UltimatePortfolioUITests.swift */; };
 		2B66A6132C1D75DE00481823 /* UltimatePortfolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B66A6122C1D75DE00481823 /* UltimatePortfolioUITestsLaunchTests.swift */; };
 		2B77B26E2C257525005F8049 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 2B66A5CE2C1BBCCA00481823 /* Localizable.xcstrings */; };
+		2B77B2722C25791D005F8049 /* ComplexPortfolioWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B77B2712C25791D005F8049 /* ComplexPortfolioWidget.swift */; };
 		2B916F462C20217A0087123D /* DataController-StoreKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B916F452C20217A0087123D /* DataController-StoreKit.swift */; };
 		2B916F4B2C2027710087123D /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B916F4A2C2027710087123D /* StoreView.swift */; };
 		2B916F4D2C2031B90087123D /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 2B916F4C2C2031B90087123D /* Configuration.storekit */; };
@@ -143,6 +144,7 @@
 		2B66A60E2C1D75DE00481823 /* UltimatePortfolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltimatePortfolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B66A6102C1D75DE00481823 /* UltimatePortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITests.swift; sourceTree = "<group>"; };
 		2B66A6122C1D75DE00481823 /* UltimatePortfolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortfolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B77B2712C25791D005F8049 /* ComplexPortfolioWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexPortfolioWidget.swift; sourceTree = "<group>"; };
 		2B916F452C20217A0087123D /* DataController-StoreKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DataController-StoreKit.swift"; path = "UltimatePortfolio/DataController-StoreKit.swift"; sourceTree = SOURCE_ROOT; };
 		2B916F4A2C2027710087123D /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		2B916F4C2C2031B90087123D /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
@@ -410,6 +412,7 @@
 				2BECAD7D2C24F45900A2F454 /* SimplePortfolioWidget.swift */,
 				2BECAD7F2C24F45A00A2F454 /* Assets.xcassets */,
 				2BECAD812C24F45A00A2F454 /* Info.plist */,
+				2B77B2712C25791D005F8049 /* ComplexPortfolioWidget.swift */,
 			);
 			path = PortfolioWidget;
 			sourceTree = "<group>";
@@ -675,6 +678,7 @@
 				2BECAD8A2C24F4E600A2F454 /* DataController.swift in Sources */,
 				2BECAD7E2C24F45900A2F454 /* SimplePortfolioWidget.swift in Sources */,
 				2BECAD7C2C24F45900A2F454 /* PortfolioWidgetBundle.swift in Sources */,
+				2B77B2722C25791D005F8049 /* ComplexPortfolioWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
