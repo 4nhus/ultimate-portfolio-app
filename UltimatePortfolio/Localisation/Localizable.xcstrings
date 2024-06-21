@@ -694,6 +694,16 @@
         }
       }
     },
+    "Nothing!" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semmi!"
+          }
+        }
+      }
+    },
     "OK" : {
       "localizations" : {
         "en" : {
@@ -1064,6 +1074,16 @@
         }
       }
     },
+    "Up next…" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Következő…"
+          }
+        }
+      }
+    },
     "Upgrade Today!" : {
       "localizations" : {
         "hu" : {
@@ -1080,6 +1100,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nem vásárolhatja meg a prémium feloldást, mert az alkalmazáson belüli vásárlások letiltva vannak ezen az eszközön.\\n\\nKérjük, keresse az eszközét kezelő személy segítségét."
+          }
+        }
+      }
+    },
+    "Your #1 top-priority issue." : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Az #1 elsőbbségi probléma."
           }
         }
       }

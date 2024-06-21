@@ -8,6 +8,7 @@
 import CoreData
 import StoreKit
 import SwiftUI
+import WidgetKit
 
 enum SortType: String {
     case dateCreated = "creationDate"
@@ -97,6 +98,12 @@ class DataController: ObservableObject {
         // so our data is destroyed after the app finishes running.
         if inMemory {
             container.persistentStoreDescriptions.first?.url = URL(filePath: "/dev/null")
+        } else {
+            let groupId = "group.dev.avdn.UltimatePortfolio"
+
+            if let url = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: groupId) {
+                container.persistentStoreDescriptions.first?.url = url.appending(path: "Main.sqlite")
+            }
         }
 
         container.viewContext.automaticallyMergesChangesFromParent = true
@@ -115,6 +122,8 @@ class DataController: ObservableObject {
             queue: .main,
             using: remoteStoreChanged
         )
+
+        container.persistentStoreDescriptions.first?.setOption(true as NSNumber, forKey: NSPersistentHistoryTrackingKey)
 
         container.loadPersistentStores { [weak self] _, error in
             if let error {
@@ -175,6 +184,7 @@ class DataController: ObservableObject {
 
         if container.viewContext.hasChanges {
             try? container.viewContext.save()
+            WidgetCenter.shared.reloadAllTimelines()
         }
     }
 
@@ -318,29 +328,6 @@ class DataController: ObservableObject {
         (try? container.viewContext.count(for: fetchRequest)) ?? 0
     }
 
-    func hasEarned(award: Award) -> Bool {
-        switch award.criterion {
-        case "issues":
-            let fetchRequest = Issue.fetchRequest()
-            let awardCount = count(for: fetchRequest)
-            return awardCount >= award.value
-        case "closed":
-            let fetchRequest = Issue.fetchRequest()
-            fetchRequest.predicate = NSPredicate(format: "completed = true")
-            let awardCount = count(for: fetchRequest)
-            return awardCount >= award.value
-        case "tags":
-            let fetchRequest = Tag.fetchRequest()
-            let awardCount = count(for: fetchRequest)
-            return awardCount >= award.value
-        case "unlock":
-            return fullVersionUnlocked
-        default:
-            //    fatalError("Unknown award criterion: \(award.criterion)")
-            return false
-        }
-    }
-
     func issue(with uniqueIdentifier: String) -> Issue? {
         guard let url = URL(string: uniqueIdentifier) else {
             return nil
@@ -351,5 +338,17 @@ class DataController: ObservableObject {
         }
 
         return try? container.viewContext.existingObject(with: id) as? Issue
+    }
+
+    func fetchRequestForTopIssues(count: Int) -> NSFetchRequest<Issue> {
+        let request = Issue.fetchRequest()
+        request.predicate = NSPredicate(format: "completed = false")
+        request.sortDescriptors = [NSSortDescriptor(keyPath: \Issue.priority, ascending: false)]
+        request.fetchLimit = count
+        return request
+    }
+
+    func results<T: NSManagedObject>(for fetchRequest: NSFetchRequest<T>) -> [T] {
+        return (try? container.viewContext.fetch(fetchRequest)) ?? []
     }
 }
