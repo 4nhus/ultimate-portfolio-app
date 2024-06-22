@@ -34,6 +34,7 @@ extension DataController {
         }
     }
 
+    #if !os(visionOS)
     func purchase(_ product: Product) async throws {
         let result = try await product.purchase()
 
@@ -41,6 +42,7 @@ extension DataController {
             try await finalize(validation.payloadValue)
         }
     }
+    #endif
 
     @MainActor
     func finalize(_ transaction: Transaction) async {
