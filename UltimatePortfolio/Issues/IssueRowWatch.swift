@@ -30,4 +30,5 @@ struct IssueRowWatch: View {
 
 #Preview {
     IssueRowWatch(issue: .example)
+        .environmentObject(DataController.preview)
 }

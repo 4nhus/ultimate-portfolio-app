@@ -12,7 +12,7 @@ struct StoreView: View {
     enum LoadState {
         case loading, loaded, error
     }
-    
+
     #if os(visionOS)
     @Environment(\.purchase) var purchaseAction
     #endif
@@ -136,7 +136,7 @@ struct StoreView: View {
         Task { @MainActor in
             #if os(visionOS)
             let result = try await purchaseAction(product)
-            
+
             if case let .success(validation) = result {
                 try await dataController.finalize(validation.payloadValue)
             }
@@ -171,4 +171,5 @@ struct StoreView: View {
 
 #Preview {
     StoreView()
+        .environmentObject(DataController.preview)
 }

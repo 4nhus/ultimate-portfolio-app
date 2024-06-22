@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct UserFilterRow: View {
+    @EnvironmentObject var dataController: DataController
+
     var filter: Filter
     var rename: (Filter) -> Void
     var delete: (Filter) -> Void
@@ -38,4 +40,5 @@ struct UserFilterRow: View {
 
 #Preview {
     UserFilterRow(filter: .all, rename: { _ in }, delete: { _ in })
+        .environmentObject(DataController.preview)
 }
