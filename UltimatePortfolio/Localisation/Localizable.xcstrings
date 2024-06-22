@@ -250,6 +250,16 @@
         }
       }
     },
+    "Close" : {
+      "localizations" : {
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezár"
+          }
+        }
+      }
+    },
     "Close Issue" : {
       "localizations" : {
         "en" : {
