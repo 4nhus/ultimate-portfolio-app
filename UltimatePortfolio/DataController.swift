@@ -28,7 +28,9 @@ class DataController: ObservableObject {
     /// The UserDefaults suite where we're saving user data.
     let defaults: UserDefaults
 
+    #if !os(watchOS)
     var spotlightDelegate: NSCoreDataCoreSpotlightDelegate?
+    #endif
 
     @Published var selectedFilter: Filter? = Filter.all
     @Published var selectedIssue: Issue?
@@ -123,8 +125,6 @@ class DataController: ObservableObject {
             using: remoteStoreChanged
         )
 
-        container.persistentStoreDescriptions.first?.setOption(true as NSNumber, forKey: NSPersistentHistoryTrackingKey)
-
         container.loadPersistentStores { [weak self] _, error in
             if let error {
                 fatalError("Fatal error loading data store: \(error.localizedDescription)")
@@ -133,6 +133,7 @@ class DataController: ObservableObject {
             if let description = self?.container.persistentStoreDescriptions.first {
                 description.setOption(true as NSNumber, forKey: NSPersistentHistoryTrackingKey)
 
+                #if !os(watchOS)
                 if let coordinator = self?.container.persistentStoreCoordinator {
                     self?.spotlightDelegate = NSCoreDataCoreSpotlightDelegate(
                         forStoreWith: description,
@@ -140,6 +141,7 @@ class DataController: ObservableObject {
                     )
                     self?.spotlightDelegate?.startSpotlightIndexing()
                 }
+                #endif
             }
 
             #if DEBUG

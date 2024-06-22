@@ -112,6 +112,7 @@
       }
     },
     "Add Samples" : {
+      "extractionState" : "stale",
       "localizations" : {
         "en" : {
           "stringUnit" : {
